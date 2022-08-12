@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/switch_fencer"
+        android:title="@string/title_switch_fencer"
+        app:showAsAction="never" />
+    <item android:id="@+id/priority"
+        android:title="@string/title_priority"
+        app:showAsAction="never" />
+    <item android:id="@+id/show_yellow"
+        android:title="@string/yellow_card"
+        app:showAsAction="never" />
+    <item android:id="@+id/show_red"
+        android:title="@string/red_card"
+        app:showAsAction="never" />
+    <item android:id="@+id/show_pcard"
+        android:title="@string/p_card"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/show_p_yellow"
+                android:title="@string/p_yellow"
+                app:showAsAction="never" />
+            <item android:id="@+id/show_p_red"
+                android:title="@string/p_red"
+                app:showAsAction="never" />
+            <item android:id="@+id/show_p_black"
+                android:title="@string/p_black"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@+id/show_black"
+        android:title="@string/black_card"
+        app:showAsAction="never" />
+    <item android:id="@+id/bout_help"
+        android:title="@string/help" />
+</menu>
